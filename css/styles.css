@@ -1,0 +1,75 @@
+/* 
+універсальний селектор
+селектор тега
+селектор id
+селектор класу
+селектор атрибута
+селектор нащадка
+селектор дитини
+*/
+
+/* універсальний селектор */
+/* * {
+  margin: 0;
+} */
+
+/* селектор тега */
+/* h1 {
+  color: tomato;
+}
+
+p {
+  color: teal;
+}
+
+a {
+  color: yellowgreen;
+} */
+
+/* селектор id */
+/* #description,
+#secondary-description {
+  color: tomato;
+} */
+
+/* селектор класу */
+/* .description {
+  color: teal;
+} */
+
+/* селектор атрибута */
+/* [href="https://www.google.com/"]
+{
+  color: tomato;
+} */
+
+/* селектор нащадка */
+/* .list .list-link {
+  color: teal;
+} */
+
+/* селектор дитини */
+/* .list-item > .list-link {
+  color: teal;
+} */
+
+/* Специфічність */
+/* 0010 */
+/* .description {
+  color: tomato;
+} */
+
+/* 0100 */
+/* #description {
+  color: teal;
+} */
+
+/* 0011 */
+/* body .description {
+  color: yellowgreen;
+} */
+
+/* 0011 */
+/* p.description {
+  color: aqua;
+} */
