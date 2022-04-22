@@ -1,0 +1,165 @@
+/* Variables */
+:root {
+  --main-color: #8f95a5;
+  --secondary-color: #263238;
+  --color-dark: #000;
+  --color-light: #fff;
+  --accent-color: #939393;
+  --accent-color-dark: #546269;
+  --border-color: #c4c4c4;
+  --info-color: #2a3246;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: var(--main-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+
+  border: 0;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+/* Common Styles */
+
+.section {
+  background-color: var(--color-light);
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.67;
+
+  color: var(--color-dark);
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  color: var(--color-light);
+
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+/* Header */
+
+.header {
+  background-color: var(--color-light);
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 1.5;
+
+  color: var(--color-dark);
+}
+
+.link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: var(--secondary-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.header-button {
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--color-dark);
+  border: 2px solid var(--secondary-color);
+  background-color: var(--color-light);
+}
+
+.header-button:hover,
+.header-button:focus {
+  color: var(--color-light);
+  background-color: var(--secondary-color);
+}
+
+/* Hero */
+
+.site-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+
+  color: var(--color-dark);
+}
+
+.hero-text {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.hero-button {
+  font-size: 36px;
+  line-height: 1.5;
+
+  color: var(--color-light);
+  border-radius: 15px;
+}
+
+/* Skills */
+
+.skills-list-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 2.67;
+
+  color: var(--secondary-color);
+}
+
+.skills-list-text {
+  line-height: 1.5;
+}
+
+.skills-button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-light);
+}
+
+.footer-link {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* Portfolio */

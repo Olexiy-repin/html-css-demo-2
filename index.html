@@ -4,78 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blended-1</title>
+    <title>Blended-2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anybody&family=La+Belle+Aurore&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <a href="#">Britlex</a>
+    <header class="header">
+      <a class="logo" href="#">Brit<span class="accent">lex</span></a>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="list">
+          <li><a class="link" href="#">Home</a></li>
+          <li><a class="link" href="#">Skills</a></li>
+          <li><a class="link" href="#">About Us</a></li>
+          <li><a class="link" href="#">Pricing</a></li>
+          <li><a class="link" href="#">Contact</a></li>
         </ul>
       </nav>
-      <button type="button">Let's Talk</button>
+      <button class="button header-button" type="button">Let's Talk</button>
     </header>
 
     <!-- Hero -->
-    <section>
-      <h1>Learn Any Foreign Language</h1>
+    <section class="section">
+      <h1 class="site-title">Learn Any Foreign Language</h1>
 
-      <p>
+      <p class="hero-text">
         With our teachers who write a program for each student, you will be able to make your first
         sketch after the first lesson.
       </p>
-      <button type="button">Get started</button>
+
+      <button class="button hero-button" type="button">Get started</button>
+
       <img src="./images/hero.jpeg" alt="девушка, изучающая языки" width="450" />
     </section>
 
     <!-- Skills -->
-    <section>
-      <h2>Skills</h2>
-      <ul>
+    <section class="section">
+      <h2 class="section-title">Skills</h2>
+      <ul class="list">
         <li>
-          <img src="" alt="Speaking" />
-          <h3>Speaking</h3>
-          <p>
+          <!-- <img src="" alt="Speaking" /> -->
+          <h3 class="skills-list-title">Speaking</h3>
+          <p class="skills-list-text">
             One of the most important and extensive areas of natural science, the science that
             studies substances, also their composition
           </p>
-          <a href="#">Learn more</a>
+          <a class="button skills-button" href="#">Learn more</a>
         </li>
         <li>
-          <img src="" alt="Writing" />
-          <h3>Writing</h3>
-          <p>
+          <!-- <img src="" alt="Writing" /> -->
+          <h3 class="skills-list-title">Writing</h3>
+          <p class="skills-list-text">
             One of the most important and extensive areas of natural science, the science that
             studies substances, also their composition
           </p>
-          <a href="#">Learn more</a>
+          <a class="button skills-button" href="#">Learn more</a>
         </li>
         <li>
-          <img src="" alt="Reading" />
-          <h3>Reading</h3>
-          <p>
+          <!-- <img src="" alt="Reading" /> -->
+          <h3 class="skills-list-title">Reading</h3>
+          <p class="skills-list-text">
             One of the most important and extensive areas of natural science, the science that
             studies substances, also their composition
           </p>
-          <a href="#">Learn more</a>
+          <a class="button skills-button" href="#">Learn more</a>
         </li>
         <li>
-          <img src="" alt="Listening" />
-          <h3>Listening</h3>
-          <p>
+          <!-- <img src="" alt="Listening" /> -->
+          <h3 class="skills-list-title">Listening</h3>
+          <p class="skills-list-text">
             One of the most important and extensive areas of natural science, the science that
             studies substances, also their composition
           </p>
-          <a href="#">Learn more</a>
+          <a class="button skills-button" href="#">Learn more</a>
         </li>
       </ul>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a class="logo" href="#">Brit<span class="accent">lex</span></a>
+
+      <a class="footer-link" href="#">Terms and Conditions • Privacy Policy • Cookie Policy</a>
+    </footer>
   </body>
 </html>
