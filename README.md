@@ -1,6 +1,6 @@
 # html-css-demo-2
 
-## blended-1
+## blended-2
 
 ### Посилання на макет
 
